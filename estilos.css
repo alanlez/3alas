@@ -1,0 +1,129 @@
+/* hoja de estilos-index html 3 alas */
+/* color fondo #29272d; */
+
+:root {
+	/* es la raiz de todo mi sistema */
+	
+	--negro: #29272d;
+	--naranja: orange;
+	--blanco: #ffffff;
+	--negroverdadero: #000;
+	
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+body {
+	background-color: var(--negro);
+	background-image: url("images/pattern.jpg");
+	
+	/* aplico la fuente general en la etiqueta para aprovechar la herencia */
+	font-family: Arial;
+	
+	
+}
+.cabecera {
+	
+	display: flex;
+	
+	/* le dice al sistema como queremos organizar los elementos en horizontal */
+	justify-content: space-between;
+	/* los centra en vertical */
+	align-items: center;
+	
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	margin-top: 16px;
+	margin-bottom: 23px;
+	
+}
+
+h1{
+	color:  var(--naranja);
+	
+	
+}
+
+.contenedor {
+	
+	background-color: var(--blanco);
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	max-width: 1000px; 
+	
+}
+
+/* ----------------------------------SECCIÓN--------------------------------------
+--------------------------------BOTONERA------------------------------------------ */
+
+.botonera {
+	
+	background-color: var(--naranja);
+	
+	padding: 15px 8px 8px 15px; 
+	
+	
+
+	
+}
+
+.botonera-lista {
+	
+	justify-content: space-around;
+	display: flex;
+
+
+
+}
+
+/* .botonera ul { */
+		
+		/* list-style-type: none; */
+		
+/* } */
+
+.botonera-lista li {
+	
+			
+	flex-grow: 1;
+	list-style-type:none;
+	
+}
+
+.botonera a{
+		
+		text-decoration: none;
+		display: block;
+		border-right: 1px solid var(--blanco);
+		text-align: center;
+		padding: 6px 0;
+		color: var(--blanco);
+		
+}
+
+/* si hacemos clase etiqueta 
+significa que etiqueta está dentro de clase)
+
+si hacemos etiqueta.clase 
+significa que etiqueta tiene aplicada a .clase */
+
+a.sin-borde{
+	border-right: none;
+	
+}
+
+.botonera a:hover {
+	
+	
+	
+}
