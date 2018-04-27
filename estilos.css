@@ -8,6 +8,7 @@
 	--naranja: orange;
 	--blanco: #ffffff;
 	--negroverdadero: #000;
+	--negroclaro: #021
 	
 }
 
@@ -27,6 +28,15 @@ body {
 	
 	
 }
+
+h2 {
+	
+	font-size: 20px;
+	margin-bottom: 16px; 
+	
+}
+
+
 .cabecera {
 	
 	display: flex;
@@ -53,6 +63,8 @@ h1{
 
 .contenedor {
 	
+	
+	
 	background-color: var(--blanco);
 	
 	
@@ -67,6 +79,7 @@ h1{
 --------------------------------BOTONERA------------------------------------------ */
 
 .botonera {
+	border-radius: 10px 10px 0 0 ;
 	
 	background-color: var(--naranja);
 	
@@ -127,3 +140,158 @@ a.sin-borde{
 	
 	
 }
+
+/* --------------------slider-----------------------------------imagen------------------- */
+
+
+.slider {
+	
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+
+
+/* ---------------------CATEGORÍAS-----------------------------------------------
+---------------------------------SECCIÒN--------------------------------------------------- */
+
+.categorias {
+	
+	margin-top: 50px;
+	width: 20% ;
+	float: left;
+	background-color: var (--negroclaro);
+	margin-top: 50; 
+	
+}
+
+.botonera-categorias {
+	
+	background-color: var (--negroclaro );
+	margin-left: 24px;
+}
+
+.botonera-categorias a {
+	
+	list-style-type: none;
+	text-decoration: none;
+	padding-left:  4px;
+
+}
+
+.categorias h2 {
+	
+	padding-left: 24px;
+	
+}
+
+.botonera-categorias li {
+	border-bottom: 1px dashed black;
+	list-style-type:none;
+	padding: 6px 0px;
+	
+	}
+
+.botonera-categorias a:hover {
+	
+	 font-weight: 
+}
+
+/* ------------------------SECCIÓN PRODUCTOS-----------------------------------
+----------------------------------------------------------------------------- */
+ 
+ 
+ .productos {
+	 
+	 margin-top: 50px; 
+	 width: 80%;
+	 float: right;
+	 background-color: white;
+	 
+	 	 padding-right: 56px;
+	 
+ }
+ 
+ .lampara {
+	 
+	 float: left;
+	 width: 50%;
+	 margin-bottom: 40px; 
+
+	 padding-left: 35px;
+	
+	 
+ }
+ 
+ .lampara img {
+	 float: left;
+	 
+ }
+ 
+ .lampara p{
+	 
+	 
+	 float:right;
+	 width:50%;
+	 padding-left:30px;
+	 
+ }
+
+/* ----------------------------SECCIÒN NEWSLETTER-----------------
+................................................................ */
+
+.newsletter {
+	clear: both;
+	
+	max-width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	border: 1px solid gray ;
+	padding: 20px 24px ;
+	
+	background-image: linear-gradient(white, gray);
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	border-radius: 8px;
+
+}
+
+.newsletter-info {
+	margin-left:40px;
+	
+}
+
+.newsletter p {
+	
+margin-left: 45px;
+}
+
+.newsletter-form [ type="submit" ] {
+	background: none;
+	border: none;
+	
+	cursor: wait;
+	/* para que aparezca la manito re piola */
+	
+	font-weight: bold;
+	padding: 5px 8px;
+	
+}
+
+
+/* -------------------------------------------pie secciòn-----------------------
+------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
