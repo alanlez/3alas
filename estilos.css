@@ -8,7 +8,8 @@
 	--naranja: orange;
 	--blanco: #ffffff;
 	--negroverdadero: #000;
-	--negroclaro: #021
+	--negroclaro: #BBB;
+	--gris:#fofofo;
 	
 }
 
@@ -141,6 +142,20 @@ a.sin-borde{
 	
 }
 
+.botonera-lista_formulario {
+		
+		margin-left: 150px;
+		margin-top: 2px;
+
+}
+
+.botonera-lista_formulario input {
+	
+	padding: 2px; 4px;
+	/* retomo un poco de relleno en los elementos del formulario
+	Padding que perdieron con el selector	*/
+	
+}
 /* --------------------slider-----------------------------------imagen------------------- */
 
 
@@ -288,10 +303,55 @@ margin-left: 45px;
 ------------------------------------------------------------------------------- */
 
 
+.pie {
+	
+	font-size: 14px;
+	padding: 6px 50 px;
+	background-color: var(--gris);
+	border-top: 1px solid gray;
+	margin-top: 30px;
+	padding-left: 30px;
+	
+}
+
+.pie-argentina, .pie-china {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.pie-copy {
+	
+	float: left;
+	padding-left: 15px;
+	padding-top: 30px;
+	
+}
 
 
+.pie-china {
+	border-right: 1px solid gray;
+	padding-right: 20px;
+	
+}
 
+.pie-creditos {
+	
+	clear:both;
+	text-align: right;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	
+}
 
+.pie-creditos a {
+	
+	/* aca va la fuente de google	*/
+	
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 20px;
+	
+}
 
 
 
